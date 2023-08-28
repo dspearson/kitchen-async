@@ -1,6 +1,6 @@
 # kitchen-async
-[![Clojars Project](https://img.shields.io/clojars/v/kitchen-async.svg)](https://clojars.org/kitchen-async)
-[![CircleCI](https://circleci.com/gh/athos/kitchen-async.svg?style=shield)](https://circleci.com/gh/athos/kitchen-async)
+
+Fork of https://github.com/athos/kitchen-async
 
 A Promise library for ClojureScript, or a poor man's core.async
 

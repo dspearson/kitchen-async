@@ -1,8 +1,8 @@
 {:paths ["src"]
- :deps {org.clojure/clojurescript {:mvn/version "1.9.946"}
-        org.clojure/core.async {:mvn/version "0.4.474"}}
+ :deps  {org.clojure/clojurescript {:mvn/version "1.11.60"}
+         org.clojure/core.async    {:mvn/version "1.6.681"}}
  :aliases
- {:dev {:extra-deps {com.cemerick/piggieback {:mvn/version "0.2.2"}}}
-  :test-jvm {:extra-paths ["test/common" "test/jvm"]
-             :extra-deps {doo {:mvn/version "0.1.8"}}}
+ {:dev              {:extra-deps {com.cemerick/piggieback {:mvn/version "0.4.0"}}}
+  :test-jvm         {:extra-paths ["test/common" "test/jvm"]
+                     :extra-deps  {doo/doo {:mvn/version "0.1.11"}}}
   :test-self-hosted {:extra-paths ["test/common" "test/self-hosted"]}}}
